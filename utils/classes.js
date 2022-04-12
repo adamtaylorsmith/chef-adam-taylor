@@ -9,10 +9,11 @@ const classes = {
   main: {
     marginTop: 2,
     minHeight: '80vh',
+    // textAlign: 'center',
   },
   footer: {
-    marginTop: 10,
-    marginBottom: 10,
+    marginTop: 5,
+    marginBottom: 1,
     textAlign: 'center',
   },
   appbar: {
@@ -27,11 +28,30 @@ const classes = {
   },
   brand: {
     fontWeight: 'bold',
-    fontSize: '1.5rem',
+    fontSize: '1.4rem',
+  },
+  extra: {
+    marginRight: 3,
+    fontSize: '1.2rem',
   },
   navbarButton: {
     color: '#ffffff',
     textTransform: 'initial',
+    fontSize: '1.4rem',
+    marginBottom: .5,
+    marginLeft: 2,
+  },
+  navbarOther: {
+    color: '#ffffff',
+    textTransform: 'initial',
+    fontSize: '1.4rem',
+    marginBottom: .5,
+    marginLeft: 3,
+  },
+  homePage: {
+    fontSize: '1.5rem',
+    marginLeft: 10,
+    marginTop: 10,
   },
   fullWidth: {
     width: '100%',

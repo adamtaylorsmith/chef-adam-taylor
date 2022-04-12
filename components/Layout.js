@@ -131,23 +131,24 @@ export default function Layout({ title, description, children }) {
       <Head>
         <title>{title ? `${title} - Chef Adam` : 'Chef Adam'}</title>
         {description && <meta name="description" content={description}></meta>}
+        
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <AppBar position="static" sx={classes.appbar}>
           <Toolbar sx={classes.toolbar}>
             <Box display="flex" alignItems="center">
-            <IconButton
-                  edge="start"
-                  aria-label="open drawer"
-                  onClick={sidebarOpenHandler}
-                  sx={classes.menuButton}
-                >
-                  <MenuIcon sx={classes.navbarButton} />
-                </IconButton>
+              <IconButton
+                edge="start"
+                aria-label="open drawer"
+                onClick={sidebarOpenHandler}
+                sx={classes.menuButton}
+              >
+                <MenuIcon sx={classes.navbarButton} />
+              </IconButton>
               <NextLink href="/" passHref>
                 <Link>
-                  <Typography sx={classes.brand}>Chef Adam</Typography>
+                  <Typography sx={classes.brand}>Chef Adam Taylor</Typography>
                 </Link>
               </NextLink>
             </Box>
@@ -210,15 +211,22 @@ export default function Layout({ title, description, children }) {
               </form>
             </Box>
             <Box>
+            <NextLink href="/shop" passHref>
+                <Link>
+                  <Typography component="span" sx={classes.extra}>
+                    Shop
+                  </Typography>
+                </Link>
+              </NextLink>
               <NextLink href="/cart" passHref>
                 <Link>
-                  <Typography component="span">
+                  <Typography component="span" sx={classes.extra}>
                     {cart.cartItems.length > 0 ? (
                       <Badge
                         color="secondary"
                         badgeContent={cart.cartItems.length}
                       >
-                        Cart&nbsp;
+                        Cart
                       </Badge>
                     ) : (
                       'Cart'
@@ -231,7 +239,7 @@ export default function Layout({ title, description, children }) {
                 <Button
                   aria-controls="simple-menu"
                   aria-haspopup="true"
-                  sx={classes.navbarButton}
+                  sx={classes.navbarOther}
                   onClick={loginClickHandler}
                 >
                   {userInfo.name}
@@ -260,8 +268,8 @@ export default function Layout({ title, description, children }) {
               </>
               ) : (
                 <NextLink href="/login" passHref>
-                  <Link>
-                    &nbsp;Login
+                  <Link sx={classes.extra}>
+                      Login
                   </Link>
                 </NextLink>
               )}

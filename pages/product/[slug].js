@@ -10,10 +10,10 @@ import {useState, useEffect, useContext} from "react"
 import { Store } from '../../utils/Store'
 import axios from 'axios';
 import { urlForThumbnail } from '../../utils/image'
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 
 export default function ProductScreen(props) {
-    const router = useRouter()
+    // const router = useRouter()
     const { slug } = props;
     const {
         state: { cart },
@@ -78,7 +78,7 @@ export default function ProductScreen(props) {
         : (
             <Box>
                 <Box sx={classes.section}>
-                    <NextLink href="/" passHref>
+                    <NextLink href="/shop" passHref>
                     <Link>
                         <Typography>Back to result</Typography>
                     </Link>
