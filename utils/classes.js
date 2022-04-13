@@ -17,7 +17,7 @@ const classes = {
     textAlign: 'center',
   },
   appbar: {
-    backgroundColor: '#fcb762', //
+    backgroundColor: '#fcb762',
     '& a': {
       color: '#ffffff',
       marginLeft: 1,
@@ -50,8 +50,8 @@ const classes = {
   },
   homePage: {
     fontSize: '1.5rem',
-    marginLeft: 10,
-    marginTop: 10,
+    marginTop: 4,
+    textAlign: 'center'
   },
   fullWidth: {
     width: '100%',
@@ -65,8 +65,6 @@ const classes = {
   hidden: {
     display: 'none',
   },
-  // search
-
   searchForm: {
     border: '1px solid #ffffff',
     backgroundColor: '#ffffff',

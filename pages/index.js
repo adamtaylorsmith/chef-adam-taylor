@@ -1,6 +1,7 @@
 import Layout from '../components/Layout'
-import { Grid, Container} from '@mui/material'
+import { Grid, Container, Typography} from '@mui/material'
 // import { useState } from 'react';
+import classes from '../utils/classes'
 
 export default function Home() {
 
@@ -12,12 +13,12 @@ export default function Home() {
 
                 </Container>
                     <Grid container>  
-                        <Grid item xs={12} style={{fontSize: '16px'}}>
-                            Details about me and other shit no one wants to know
+                        <Grid item xs={12}>
+                            <Typography sx={classes.homePage}>
+                                Chef Adam Taylor&#39;s Healthy Cuisine
+                            </Typography> 
                         </Grid>
-                        <Grid item xs={10} style={{fontSize: '20px', fontWeight:'bold'}} display="flex" justifyContent="center">
-                            Resume ipsum loren kappa cheddar
-                        </Grid>
+                   
                     </Grid>
 
             </Layout>; 
