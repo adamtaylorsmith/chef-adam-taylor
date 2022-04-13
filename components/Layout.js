@@ -148,7 +148,7 @@ export default function Layout({ title, description, children }) {
               </IconButton>
               <NextLink href="/" passHref>
                 <Link>
-                  <Typography sx={classes.brand}>Chef Adam Taylor</Typography>
+                  <Typography sx={classes.brand}>Chef Adam</Typography>
                 </Link>
               </NextLink>
             </Box>
@@ -281,7 +281,7 @@ export default function Layout({ title, description, children }) {
           {children}
         </Container>
         <Box component="footer" sx={classes.footer}>
-          <Typography>Chef Adam Taylor 2022</Typography>
+          <Typography>Adam Taylor Smith 2022</Typography>
         </Box>
       </ThemeProvider>
     </>

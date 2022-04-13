@@ -1,3 +1,5 @@
+import { blue } from "@mui/material/colors";
+
 const classes = {
   section: {
     marginTop: 1,
@@ -52,6 +54,15 @@ const classes = {
     fontSize: '1.5rem',
     marginTop: 4,
     textAlign: 'center'
+  },
+  homePageContent: {
+    fontSize: '1.3rem',
+    marginTop: 10,
+    marginLeft: '5%',
+    textAlign: 'left',
+  },
+  specialLink: {
+    color: blue,
   },
   fullWidth: {
     width: '100%',
