@@ -1,4 +1,4 @@
-import { Alert, CircularProgress, Grid } from '@mui/material';
+import { Alert, CircularProgress, Grid, Typography } from '@mui/material';
 import axios from 'axios';
 // import { useRouter } from 'next/router';
 // import { useSnackbar } from 'notistack';
@@ -8,6 +8,7 @@ import ProductItem from '../components/ProductItem';
 import client from '../utils/client';
 import { urlForThumbnail } from '../utils/image';
 import { Store } from '../utils/Store';
+import classes from '../utils/classes'
 
 export default function Home() {
   const {
@@ -63,9 +64,11 @@ const {loading, error, products} = state
   return <Layout>
     {loading? (<CircularProgress />)
     : error? (<Alert variant="danger">{error}</Alert>)
-    : 
-      <Grid container spacing={5} display="flex"
-      justifyContent="center">
+    : <>
+      <Grid container>
+        <Typography sx={classes.shopContent}>All items are prepared using the highest-quality and cleanest produce and ingredients available.</Typography>
+      </Grid>
+      <Grid container spacing={5} display="flex" justifyContent="center">
         {products.map((product) => (
           <Grid item md={4} key={product.slug}>
             <ProductItem
@@ -75,6 +78,8 @@ const {loading, error, products} = state
           </Grid>
         ))}
       </Grid>
+    </>
+    
     }
   </Layout>;
 }

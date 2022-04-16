@@ -14,7 +14,7 @@ const classes = {
     // textAlign: 'center',
   },
   footer: {
-    marginTop: 5,
+    marginTop: 3,
     marginBottom: 1,
     textAlign: 'center',
   },
@@ -52,14 +52,28 @@ const classes = {
   },
   homePage: {
     fontSize: '1.5rem',
-    marginTop: 4,
+    marginBottom: 5,
+    textAlign: 'center'
+  },
+  homePageImgCont: {
+    // fontSize: '1.5rem',
+    marginTop: 2,
     textAlign: 'center'
   },
   homePageContent: {
     fontSize: '1.3rem',
-    marginTop: 10,
+    marginTop: 6,
     marginLeft: '5%',
     textAlign: 'left',
+  },
+  shopContent: {
+    fontSize: '1.3rem',
+    marginTop: 3,
+    marginBottom: 5,
+    // textAlign: 'center',
+  },
+  title: {
+    textAlign: 'center'
   },
   specialLink: {
     color: blue,
