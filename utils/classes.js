@@ -51,7 +51,7 @@ const classes = {
     marginLeft: 3,
   },
   homePage: {
-    fontSize: '1.5rem',
+    fontSize: '1.3rem',
     marginBottom: 5,
     textAlign: 'center'
   },
@@ -61,10 +61,13 @@ const classes = {
     textAlign: 'center'
   },
   homePageContent: {
-    fontSize: '1.3rem',
+    fontSize: '1.2rem',
     marginTop: 6,
     marginLeft: '5%',
     textAlign: 'left',
+  },
+  special: {
+    fontSize: '1.1rem',
   },
   shopContent: {
     fontSize: '1.3rem',

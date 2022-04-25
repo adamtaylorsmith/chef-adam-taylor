@@ -55,6 +55,16 @@ export default function Home() {
                         {/* https://cdn.sanity.io/images/yx8hhiz1/production/faf3b38d7810fda041363145be384a3022fc5af2-1375x1750.png */}
                         
                     </Grid>
+                </Container><br/>
+                <Container>
+                    <Typography sx={classes.special}>
+                    Fully-cooked, reheat-and-serve meals. Menu is personalized to your tastes and dietary preferences. 
+                    I will shop for your fresh produce at farmers markets. I will buy your ingredients at local health food stores such as Good Earth and Georgetown Market.
+                    Whether Margarita Mix or Lasagna, your food and drinks will be prepared using the freshest, cleanest and highest-quality ingredients imaginable. All items will be prepared around any preference or dietary restriction.
+                    Specializing in fresh, local, seasonal, nutrient dish, low fat and delicious.
+                    All orders will be delivered to your front door on one of two days, Sundays and Fridays.
+                    I am passionate about nutrition and cleanliness.
+                    </Typography>
                 </Container>
             </Layout>; 
             
