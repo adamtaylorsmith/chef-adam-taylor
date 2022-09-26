@@ -18,8 +18,9 @@ const classes = {
     marginBottom: 1,
     textAlign: 'center',
   },
+  // fcb762
   appbar: {
-    backgroundColor: '#fcb762',
+    backgroundColor: '#5e76f9',
     '& a': {
       color: '#ffffff',
       marginLeft: 1,
@@ -106,7 +107,7 @@ const classes = {
     },
   },
   searchButton: {
-    backgroundColor: '#f8c040',
+    backgroundColor: '#0730fc',
     padding: 1,
     borderRadius: '0 5px 5px 0',
     '& span': {
