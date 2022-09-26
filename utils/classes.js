@@ -17,6 +17,7 @@ const classes = {
     marginTop: 3,
     marginBottom: 1,
     textAlign: 'center',
+    // fontSize: '1.9rem',
   },
   // fcb762
   appbar: {

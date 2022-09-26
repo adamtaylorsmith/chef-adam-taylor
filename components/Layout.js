@@ -281,7 +281,7 @@ export default function Layout({ title, description, children }) {
           {children}
         </Container>
         <Box component="footer" sx={classes.footer}>
-          <Typography>Adam Taylor Smith 2022</Typography>
+          <Typography style={{fontSize: '13px'}}>Next.js App by Adam Taylor Smith 2022</Typography>
         </Box>
       </ThemeProvider>
     </>

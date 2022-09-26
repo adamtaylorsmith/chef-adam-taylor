@@ -22,22 +22,22 @@ export default function Home() {
                             </Typography> 
                             <Typography sx={classes.homePageContent}>
                                 I developed my skills at the following fine establishments:<br/><br/>
-                                <a target="_blank" href="https://cafeflora.com/" rel="noopener noreferrer" style={{color: '#5e76f9'}}>
+                                <a target="_blank" href="https://cafeflora.com/" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
                                 Cafe Flora
                                 </a> in Seattle, WA<br/>
-                                <a target="_blank" href="https://www.holeinthewallgang.org/" rel="noopener noreferrer" style={{color: '#5e76f9'}}>
+                                <a target="_blank" href="https://www.holeinthewallgang.org/" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
                                 Hole in the Wall Gang Camp
                                 </a> in Ashford, CT <br/>
-                                <a target="_blank" href="https://www.upress.umn.edu/book-division/books/the-cafe-brenda-cookbook" rel="noopener noreferrer" style={{color: '#5e76f9'}}>
+                                <a target="_blank" href="https://www.upress.umn.edu/book-division/books/the-cafe-brenda-cookbook" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
                                 Cafe Brenda
                                 </a> in Minneapolis, MN<br/>
-                                <a target="_blank" href="https://www.ibj.com/articles/56946-mass-ave-farm-to-table-pioneer-r-bistro-to-close" rel="noopener noreferrer" style={{color: '#5e76f9'}}>
+                                <a target="_blank" href="https://www.ibj.com/articles/56946-mass-ave-farm-to-table-pioneer-r-bistro-to-close" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
                                 R Bistro
                                 </a> in Indianapolis, IN<br/>
-                                <a target="_blank" href="https://greensrestaurant.com/" rel="noopener noreferrer" style={{color: '#5e76f9'}}>
+                                <a target="_blank" href="https://greensrestaurant.com/" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
                                 Greens
                                 </a> in San Francisco, CA<br/>
-                                <a target="_blank" href="https://www.ngihca.edu/" rel="noopener noreferrer" style={{color: '#5e76f9'}}>
+                                <a target="_blank" href="https://www.ngihca.edu/" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
                                 Natural Gourmet Institute
                                 </a> in New York, NY<br/>
                             </Typography> 
@@ -56,7 +56,7 @@ export default function Home() {
                         
                     </Grid>
                 </Container><br/>
-                <Container>
+                {/* <Container>
                     <Typography sx={classes.special}>
                     Fully-cooked, reheat-and-serve meals. Menu is personalized to your tastes and dietary preferences. 
                     I will shop for your fresh produce at farmers markets. I will buy your ingredients at local health food stores such as Good Earth and Georgetown Market.
@@ -65,7 +65,7 @@ export default function Home() {
                     All orders will be delivered to your front door on one of two days, Sundays and Fridays.
                     I am passionate about nutrition and cleanliness.
                     </Typography>
-                </Container>
+                </Container> */}
             </Layout>; 
             
         </>
