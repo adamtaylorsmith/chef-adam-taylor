@@ -66,7 +66,7 @@ const {loading, error, products} = state
     : error? (<Alert variant="danger">{error}</Alert>)
     : <>
       <Grid container>
-        <Typography sx={classes.shopContent}>All items are prepared using the highest-quality and cleanest produce and ingredients available.</Typography>
+        <Typography sx={classes.shopContent}><br/>All items are prepared using the cleanest and freshest produce and highest-quality ingredients available.</Typography>
       </Grid>
       <Grid container spacing={5} display="flex" justifyContent="center">
         {products.map((product) => (

@@ -53,7 +53,7 @@ const classes = {
     marginLeft: 3,
   },
   homePage: {
-    fontSize: '1.3rem',
+    fontSize: '1.4rem',
     marginBottom: 5,
     textAlign: 'center'
   },

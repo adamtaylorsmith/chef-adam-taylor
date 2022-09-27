@@ -21,7 +21,8 @@ export default function Home() {
                                 <br/>Specializing in health-supportive, nourishing, organic, seasonal, and local cuisine.
                             </Typography> 
                             <Typography sx={classes.homePageContent}>
-                                I developed my skills at the following fine establishments:<br/><br/>
+                                <span style={{fontStyle: 'italic'}}>I developed my skills at the following fine establishments:</span>
+                                <br/>
                                 <a target="_blank" href="https://cafeflora.com/" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
                                 Cafe Flora
                                 </a> in Seattle, WA<br/>
@@ -46,9 +47,9 @@ export default function Home() {
                         </Grid> 
                         <Grid item xs={12} md={5} sx={classes.homePageImgCont}>
                         <figure>
-                            <Image src="https://cdn.sanity.io/images/yx8hhiz1/production/faf3b38d7810fda041363145be384a3022fc5af2-1375x1750.png" width="366" height="466" alt="Adam during an Iron Chef event at Hole in the Wall Gang Camp in Ashford, CT" />
+                            <Image src="https://cdn.sanity.io/images/yx8hhiz1/production/faf3b38d7810fda041363145be384a3022fc5af2-1375x1750.png" width="325" height="414" alt="Adam during an Iron Chef event at Hole in the Wall Gang Camp in Ashford, CT" />
                             <figcaption>
-                                <p style={{fontSize: '16px'}}>Adam during an Iron Chef Event at the Hole in the Wall Gang Camp in Ashford, Connecticut. 2007</p>
+                                <p style={{fontSize: '16px'}}>Adam during an Iron Chef Event at The Hole in the Wall Gang Camp in Ashford, Connecticut. 2007</p>
                             </figcaption>
                         </figure> 
                         </Grid>
