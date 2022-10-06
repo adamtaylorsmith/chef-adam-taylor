@@ -211,7 +211,14 @@ export default function Layout({ title, description, children }) {
               </form>
             </Box>
             <Box>
-            <NextLink href="/shop" passHref>
+              <NextLink href="/recipes" passHref>
+                <Link>
+                  <Typography component="span" sx={classes.extra}>
+                    Recipes
+                  </Typography>
+                </Link>
+              </NextLink>
+              <NextLink href="/shop" passHref>
                 <Link>
                   <Typography component="span" sx={classes.extra}>
                     Shop
