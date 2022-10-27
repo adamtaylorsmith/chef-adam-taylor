@@ -25,7 +25,7 @@ import {
 import Head from 'next/head';
 import NextLink from 'next/link';
 import classes from '../utils/classes';
-import MenuIcon from '@mui/icons-material/Menu';
+// import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import CancelIcon from '@mui/icons-material/Cancel';
 import { Store } from '../utils/Store';
@@ -92,13 +92,13 @@ export default function Layout({ title, description, children }) {
     router.push('/');
   };
 
-  const [sidebarVisible, setSidebarVisible] = useState(false);
-  const sidebarOpenHandler = () => {
-    // setSidebarVisible(true);
-  };
-  const sidebarCloseHandler = () => {
-    // setSidebarVisible(false);
-  };
+  // const [sidebarVisible, setSidebarVisible] = useState(false);
+  // const sidebarOpenHandler = () => {
+  //   // setSidebarVisible(true);
+  // };
+  // const sidebarCloseHandler = () => {
+  //   // setSidebarVisible(false);
+  // };
 
   // const { enqueueSnackbar } = useSnackbar();
   const [categories, setCategories] = useState([]);
@@ -156,7 +156,7 @@ export default function Layout({ title, description, children }) {
             <Drawer
               anchor="left"
               open={sidebarVisible}
-              onClose={sidebarCloseHandler}
+              // onClose={sidebarCloseHandler}
             >
               <List>
                 <ListItem>
@@ -168,7 +168,7 @@ export default function Layout({ title, description, children }) {
                     <Typography>Shopping by category</Typography>
                     <IconButton
                       aria-label="close"
-                      onClick={sidebarCloseHandler}
+                      // onClick={sidebarCloseHandler}
                     >
                       <CancelIcon />
                     </IconButton>
@@ -184,7 +184,7 @@ export default function Layout({ title, description, children }) {
                     <ListItem
                       button
                       component="a"
-                      onClick={sidebarCloseHandler}
+                      // onClick={sidebarCloseHandler}
                     >
                       <ListItemText primary={category}></ListItemText>
                     </ListItem>

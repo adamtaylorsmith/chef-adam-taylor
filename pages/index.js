@@ -18,7 +18,7 @@ export default function Home() {
                     <Grid container>  
                         <Grid item xs={12} md={6}>
                             <Typography sx={classes.homePage}>
-                                <br/>I will help you love healthy food. Specializing in local, organic, seasonal cuisine. 
+                                <br/>I can help you fall in love with healthy food! Specializing in local, organic, seasonal cuisine. 
                             </Typography> 
                             <Typography sx={classes.homePageExtra}>
                                 I developed my skills at the following fine establishments: 
