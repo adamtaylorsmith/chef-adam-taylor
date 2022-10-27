@@ -64,7 +64,8 @@ export default function Layout({ title, description, children }) {
     palette: {
       mode: darkMode ? 'dark' : 'light',
       primary: {
-        main: '#9a8dfc',
+        main: '#208080',
+        // main: '#9a8dfc',
       },
       secondary: {
         main: '#208080',
@@ -155,7 +156,7 @@ export default function Layout({ title, description, children }) {
             </Box>
             <Drawer
               anchor="left"
-              open={sidebarVisible}
+              // open={sidebarVisible}
               // onClose={sidebarCloseHandler}
             >
               <List>
@@ -212,7 +213,6 @@ export default function Layout({ title, description, children }) {
               </form>
             </Box>
             { isMobile ? (
-
             <>
               <Box>
               <NextLink href="/recipes" passHref>
@@ -256,7 +256,7 @@ export default function Layout({ title, description, children }) {
                 <Button
                   aria-controls="simple-menu"
                   aria-haspopup="true"
-                  // sx={classes.navbarOther}
+                  sx={classes.navbarOther}
                   onClick={loginClickHandler}
                 >
                   {userInfo.name}

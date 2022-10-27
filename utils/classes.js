@@ -21,7 +21,7 @@ const classes = {
   },
   // fcb762
   appbar: {
-    backgroundColor: '#5e76f9',
+    backgroundColor: '#4e65d8',
     '& a': {
       color: '#ffffff',
       marginLeft: 1,
@@ -53,9 +53,9 @@ const classes = {
   navbarOther: {
     color: '#ffffff',
     textTransform: 'initial',
-    fontSize: '1.4rem',
-    marginBottom: .5,
-    marginLeft: 3,
+    fontSize: '1.2rem',
+    marginBottom: .55,
+    marginLeft: 1,
   },
   homePage: {
     fontSize: '1.4rem',
@@ -125,7 +125,7 @@ const classes = {
     },
   },
   searchButton: {
-    backgroundColor: '#0730fc',
+    backgroundColor: '#4e65d8',
     padding: 1,
     borderRadius: '0 5px 5px 0',
     '& span': {
