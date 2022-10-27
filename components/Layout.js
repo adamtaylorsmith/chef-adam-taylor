@@ -94,10 +94,10 @@ export default function Layout({ title, description, children }) {
 
   const [sidebarVisible, setSidebarVisible] = useState(false);
   const sidebarOpenHandler = () => {
-    setSidebarVisible(true);
+    // setSidebarVisible(true);
   };
   const sidebarCloseHandler = () => {
-    setSidebarVisible(false);
+    // setSidebarVisible(false);
   };
 
   // const { enqueueSnackbar } = useSnackbar();
@@ -115,7 +115,8 @@ export default function Layout({ title, description, children }) {
     fetchCategories();
   }, []);
 
-  const isDesktop = useMediaQuery('(min-width:600px)');
+  const isDesktop = useMediaQuery('(min-width:700px)');
+  const isMobile = useMediaQuery('(max-width:600px)');
 
   const [query, setQuery] = useState('');
   const queryChangeHandler = (e) => {
@@ -138,14 +139,14 @@ export default function Layout({ title, description, children }) {
         <AppBar position="static" sx={classes.appbar}>
           <Toolbar sx={classes.toolbar}>
             <Box display="flex" alignItems="center">
-              <IconButton
+              {/* <IconButton
                 edge="start"
                 aria-label="open drawer"
                 onClick={sidebarOpenHandler}
                 sx={classes.menuButton}
               >
                 <MenuIcon sx={classes.navbarButton} />
-              </IconButton>
+              </IconButton> */}
               <NextLink href="/" passHref>
                 <Link>
                   <Typography sx={classes.brand}>Chef Adam</Typography>
@@ -210,7 +211,91 @@ export default function Layout({ title, description, children }) {
                 </Box>
               </form>
             </Box>
-            <Box>
+            { isMobile ? (
+
+            <>
+              <Box>
+              <NextLink href="/recipes" passHref>
+                <Link>
+                  <Typography component="span" 
+                  sx={classes.notextra}
+                  >
+                    Recipes
+                  </Typography>
+                </Link>
+              </NextLink>
+              <NextLink href="/shop" passHref>
+                <Link>
+                  <Typography component="span" 
+                  sx={classes.notextra}
+                  >
+                    Shop
+                  </Typography>
+                </Link>
+              </NextLink>
+              <NextLink href="/cart" passHref>
+                <Link>
+                  <Typography component="span" 
+                  sx={classes.notextra}
+                  >
+                    {cart.cartItems.length > 0 ? (
+                      <Badge
+                        color="secondary"
+                        badgeContent={cart.cartItems.length}
+                      >
+                        Cart
+                      </Badge>
+                    ) : (
+                      'Cart'
+                    )}
+                  </Typography>
+                </Link>
+              </NextLink>
+              {userInfo? (
+                <>
+                <Button
+                  aria-controls="simple-menu"
+                  aria-haspopup="true"
+                  // sx={classes.navbarOther}
+                  onClick={loginClickHandler}
+                >
+                  {userInfo.name}
+                </Button>
+                <Menu
+                  id="simple-menu"
+                  anchorEl={anchorEl}
+                  keepMounted
+                  open={Boolean(anchorEl)}
+                  onClose={loginMenuCloseHandler}
+                >
+                  <MenuItem
+                    onClick={(e) => loginMenuCloseHandler(e, '/profile')}
+                  >
+                    Profile
+                  </MenuItem>
+                  <MenuItem
+                      onClick={(e) =>
+                        loginMenuCloseHandler(e, '/order-history')
+                      }
+                    >
+                      Order History
+                    </MenuItem>
+                  <MenuItem onClick={logoutClickHandler}>Logout</MenuItem>
+                </Menu>
+              </>
+              ) : (
+                <NextLink href="/login" passHref>
+                  <Link 
+                  sx={classes.notextra}
+                  >
+                      Login
+                  </Link>
+                </NextLink>
+              )}
+            </Box>
+            </>
+            
+            ) : (<Box>
               <NextLink href="/recipes" passHref>
                 <Link>
                   <Typography component="span" sx={classes.extra}>
@@ -280,7 +365,10 @@ export default function Layout({ title, description, children }) {
                   </Link>
                 </NextLink>
               )}
-            </Box>
+            </Box>)
+
+            }
+            
 
           </Toolbar>
         </AppBar>
@@ -288,7 +376,7 @@ export default function Layout({ title, description, children }) {
           {children}
         </Container>
         <Box component="footer" sx={classes.footer}>
-          <Typography style={{fontSize: '13px'}}>Next.js App by Adam Taylor Smith 2022</Typography>
+          <Typography style={{fontSize: '13px'}}>Next.js App &nbsp;&nbsp;|&nbsp;&nbsp; Adam Taylor Smith 2022</Typography>
         </Box>
       </ThemeProvider>
     </>

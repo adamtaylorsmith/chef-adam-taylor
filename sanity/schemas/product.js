@@ -36,11 +36,6 @@ export default {
         },
       },
       {
-        name: 'brand',
-        title: 'Brand',
-        type: 'string',
-      },
-      {
         name: 'category',
         title: 'Category',
         type: 'string',

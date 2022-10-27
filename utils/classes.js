@@ -35,8 +35,13 @@ const classes = {
     fontSize: '1.4rem',
   },
   extra: {
-    marginRight: 3,
+    marginRight: 4,
     fontSize: '1.2rem',
+  },
+  notextra: {
+    marginRight: 1,
+    // marginTop: 18,
+    fontSize: '1.1rem',
   },
   navbarButton: {
     color: '#ffffff',
@@ -54,7 +59,7 @@ const classes = {
   },
   homePage: {
     fontSize: '1.4rem',
-    marginBottom: 5,
+    marginBottom: 8,
     textAlign: 'center'
   },
   homePageImgCont: {
@@ -64,18 +69,30 @@ const classes = {
   },
   homePageContent: {
     fontSize: '1.2rem',
-    marginTop: 6,
+    marginTop: 2,
     marginLeft: '5%',
     textAlign: 'left',
+  },
+  homePageExtra: {
+    fontSize: '1rem',
+    fontStyle: 'italic',
+    marginTop: 4,
+    marginLeft: '5%',
+    textAlign: 'left',
+  },
+  bodyFrame: {
+    marginLeft: '50px',
+    marginRight: '10%',
   },
   special: {
     fontSize: '1.1rem',
   },
   shopContent: {
     fontSize: '1.3rem',
-    marginTop: 3,
+    // marginTop: 1,
     marginBottom: 5,
-    // textAlign: 'center',
+    fontWeight: 400,
+    textAlign: 'center',
   },
   title: {
     textAlign: 'center'
