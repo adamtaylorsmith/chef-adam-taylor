@@ -11,7 +11,7 @@ export default function Recipes() {
       <Typography component="h1" variant="h1">
           <div>Recipes Blog</div>
       </Typography>
-      <p style={{}}>Embed my demostration TikTok videos here!<br /><br />Smoothie<br />Steel cut oats<br />#3 ??</p>
+      <p style={{}}><span style={{fontWeight: '600'}}>https://www.tiktok.com/@chefadamtaylor</span>: embed video here...<br /><br />Brunch Recipe #1 - Ultimate Yogurt Smoothie<br />Brunch Recipe #2 - Steel Cut Oats with Brown Butter<br />Brunch Recipe #3 - Bloody Mary</p>
     </div>
   </Layout>;
 }
