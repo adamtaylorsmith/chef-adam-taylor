@@ -215,6 +215,15 @@ export default function Layout({ title, description, children }) {
             { isMobile ? (
             <>
               <Box>
+              <NextLink href="/services" passHref>
+                <Link>
+                  <Typography component="span" 
+                  sx={classes.notextra}
+                  >
+                    Services
+                  </Typography>
+                </Link>
+              </NextLink>
               <NextLink href="/recipes" passHref>
                 <Link>
                   <Typography component="span" 
