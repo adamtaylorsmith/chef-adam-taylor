@@ -18,7 +18,7 @@ export default function Home() {
                     <Grid container>  
                         <Grid item xs={12} md={6}>
                             <Typography sx={classes.homePage}>
-                                <br/>I can help you fall in love with healthy food! Specializing in local, organic, seasonal, vegetarian cuisine. 
+                                <br /><span style={{fontSize: '1.5rem'}}>I can help you fall in love with healthy food!</span><br /><span style={{fontSize: '1.2rem'}}>Local, organic, seasonal, health-supportive, vegetarian cuisine.</span>
                             </Typography> 
                             <Typography sx={classes.homePageExtra}>
                                 I developed my skills at the following fine establishments: 
@@ -50,7 +50,7 @@ export default function Home() {
                         <figure>
                             <Image src="https://cdn.sanity.io/images/yx8hhiz1/production/faf3b38d7810fda041363145be384a3022fc5af2-1375x1750.png" width="325" height="414" alt="Adam during an Iron Chef event at Hole in the Wall Gang Camp in Ashford, CT" />
                             <figcaption>
-                                <p style={{fontSize: '14px'}}>Adam during an Iron Chef Event at The Hole in the Wall Gang Camp in Ashford, Connecticut. 2007</p>
+                                <p style={{fontSize: '14px'}}>Adam as Iron Chef during an event at The Hole in the Wall Gang Camp in Ashford, Connecticut. 2007</p>
                             </figcaption>
                         </figure> 
                         </Grid>

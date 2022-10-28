@@ -305,6 +305,13 @@ export default function Layout({ title, description, children }) {
             </>
             
             ) : (<Box>
+              <NextLink href="/services" passHref>
+                <Link>
+                  <Typography component="span" sx={classes.extra}>
+                    Services
+                  </Typography>
+                </Link>
+              </NextLink>
               <NextLink href="/recipes" passHref>
                 <Link>
                   <Typography component="span" sx={classes.extra}>
@@ -369,7 +376,7 @@ export default function Layout({ title, description, children }) {
               </>
               ) : (
                 <NextLink href="/login" passHref>
-                  <Link sx={classes.extra}>
+                  <Link sx={classes.login}>
                       Login
                   </Link>
                 </NextLink>

@@ -35,13 +35,21 @@ const classes = {
     fontSize: '1.4rem',
   },
   extra: {
-    marginRight: 4,
+    marginRight: 6,
     fontSize: '1.2rem',
   },
   notextra: {
     marginRight: 1,
     // marginTop: 18,
     fontSize: '1.1rem',
+  },
+  login: {
+    marginRight: 6,
+    fontSize: '1.2rem',
+    backgroundColor: '#78e041',
+    padding: '8px 14px 10px 14px',
+    borderRadius: '5px',
+    // color: '#888888',
   },
   navbarButton: {
     color: '#ffffff',
