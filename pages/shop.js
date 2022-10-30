@@ -69,9 +69,9 @@ const {loading, error, products} = state
     <Typography component="h1" variant="h1">
             Shop
         </Typography>
-        <Typography>*Online shopping is currently only available in the <span style={{fontWeight: '700'}}>Indianapolis, Indiana</span> area.</Typography>
+        <Typography>Online shopping is currently only available in the <span style={{fontWeight: '700'}}>Indianapolis, Indiana</span> area.</Typography>
       <Grid container>
-        <Typography sx={classes.shopContent}><br/>Prepared with the cleanest, freshest, highest-quality produce and ingredients!</Typography>
+        <Typography sx={classes.shopContent}><br/>Prepared with the cleanest, freshest, highest-quality produce and ingredients available.</Typography>
       </Grid>
       <Grid container spacing={5} display="flex" justifyContent="center">
         {products.map((product) => (

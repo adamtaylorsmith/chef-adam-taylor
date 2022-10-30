@@ -18,7 +18,7 @@ export default function Home() {
                     <Grid container>  
                         <Grid item xs={12} md={6}>
                             <Typography sx={classes.homePage}>
-                                <br /><span style={{fontSize: '1.5rem'}}>I can help you fall in love with healthy food!</span><br /><span style={{fontSize: '1.2rem'}}>Local, organic, seasonal, health-supportive, vegetarian cuisine.</span>
+                                <br /><span style={{fontSize: '1.5rem'}}>I can help you fall in love with healthy food!</span><br /><span style={{fontSize: '1.2rem'}}>Organic, seasonal, health-supportive, farm-to-table cuisine.</span>
                             </Typography> 
                             <Typography sx={classes.homePageExtra}>
                                 I developed my skills at the following fine establishments: 
