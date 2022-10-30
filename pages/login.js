@@ -42,7 +42,7 @@ export default function LoginScreen() {
     return (
         <Layout title="Login">
             <Form onSubmit={handleSubmit(submitHandler)}>
-                <Typography component="h1" variant="h1" style={{marginLeft:'2%', marginTop: '30px'}}>
+                <Typography component="h1" variant="h1" style={{marginLeft:'2%', marginTop: '40px'}}>
                     Login
                 </Typography>
                 <List>

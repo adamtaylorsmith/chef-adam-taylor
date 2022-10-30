@@ -15,7 +15,7 @@ const classes = {
   },
   footer: {
     marginTop: 3,
-    marginBottom: 1,
+    marginBottom: 3,
     textAlign: 'center',
     // fontSize: '1.9rem',
   },

@@ -65,14 +65,19 @@ const {loading, error, products} = state
     {loading? (<CircularProgress />)
     : error? (<Alert variant="danger">{error}</Alert>)
     : <>
-    <div style={{marginLeft: '4%', marginRight: '4%', marginTop: '30px'}}>
+    <div style={{marginLeft: '4%', marginRight: '4%', marginTop: '40px'}}>
     <Typography component="h1" variant="h1">
-            Shop
+            <div style={{fontWeight: '800'}}>Shop</div>
         </Typography>
-        <Typography>Online shopping is currently only available in the <span style={{fontWeight: '700'}}>Indianapolis, Indiana</span> area.</Typography>
       <Grid container>
-        <Typography sx={classes.shopContent}><br/>Prepared with the cleanest, freshest, highest-quality produce and ingredients available.</Typography>
-      </Grid>
+        <Typography>
+          <span style={{fontSize: '1.2rem'}}>
+          Prepared with the cleanest, freshest, highest-quality produce and ingredients available.<br />
+          Online shopping is currently only available in the  
+            <span style={{fontWeight: '700'}}> Indianapolis, Indiana</span> area.
+          
+          </span></Typography>
+      </Grid><br /><br />
       <Grid container spacing={5} display="flex" justifyContent="center">
         {products.map((product) => (
           <Grid item md={4} key={product.slug}>
@@ -84,7 +89,7 @@ const {loading, error, products} = state
         ))}
       </Grid>
     </div>
-      
+      <br/>
     </>
     
     }

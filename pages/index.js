@@ -18,7 +18,7 @@ export default function Home() {
                     <Grid container>  
                         <Grid item xs={12} md={6}>
                             <Typography sx={classes.homePage}>
-                                <br /><span style={{fontSize: '1.5rem'}}>I can help you fall in love with healthy food!</span><br /><span style={{fontSize: '1.2rem'}}>Organic, seasonal, health-supportive, farm-to-table cuisine.</span>
+                                <br /><span style={{fontSize: '1.5rem'}}>I can help you fall in love with healthy food!</span><br /><span style={{fontSize: '1.2rem'}}>Seasonal, organic, farm-to-table, vegetarian cuisine.</span>
                             </Typography> 
                             <Typography sx={classes.homePageExtra}>
                                 I developed my skills at the following fine establishments: 
@@ -28,7 +28,7 @@ export default function Home() {
                                 Cafe Flora
                                 </a> in Seattle, WA<br/>
                                 <a target="_blank" href="https://www.holeinthewallgang.org/" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
-                                Hole in the Wall Gang Camp
+                                The Hole in the Wall Gang Camp
                                 </a> in Ashford, CT <br/>
                                 <a target="_blank" href="https://www.upress.umn.edu/book-division/books/the-cafe-brenda-cookbook" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
                                 Cafe Brenda
@@ -57,7 +57,7 @@ export default function Home() {
                         {/* https://cdn.sanity.io/images/yx8hhiz1/production/faf3b38d7810fda041363145be384a3022fc5af2-1375x1750.png */}
                         
                     </Grid>
-                </Container><br/>
+                </Container>
                 {/* <Container>
                     <Typography sx={classes.special}>
                     Fully-cooked, reheat-and-serve meals. Menu is personalized to your tastes and dietary preferences. 

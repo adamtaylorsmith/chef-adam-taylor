@@ -65,9 +65,9 @@ function CartScreen() {
     };
     return (
         <Layout title="Shopping Cart">
-            <div style={{marginLeft: '4%', marginRight: '4%', marginTop: '30px'}}>
+            <div style={{marginLeft: '4%', marginRight: '4%', marginTop: '40px'}}>
             <Typography component="h1" variant="h1">
-                Shopping Cart
+                <div style={{fontWeight: '800'}}>Shopping Cart</div>
             </Typography>
             {cartItems.length === 0 ? (
                 <Box>
