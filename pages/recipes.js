@@ -11,7 +11,10 @@ export default function Recipes() {
       <Typography component="h1" variant="h1">
           <div>Recipes Blog</div>
       </Typography>
-      <p style={{fontSize: '1.2rem'}}><span style={{fontWeight: '600'}}>https://www.tiktok.com/@chefadamtaylor</span> embed videos here...<br /><br />Upcoming free recipe &#35;1 - Steel Cut Oats with Brown Butter (filming now)<br />Upcoming free recipe &#35;2 - Ultimate Yogurt Smoothie<br />Upcoming free recipe &#35;3 - Braised Kale</p>
+      <p style={{fontSize: '1.2rem'}}>
+        <span style={{fontWeight: '600'}}>https://www.tiktok.com/@chefadamtaylor</span> embed videos here...<br />
+        <span style={{fontWeight: '600'}}>https://www.instagram.com/chefadamtaylor</span><br /><br />
+        Upcoming free recipe &#35;1 - Steel Cut Oats with Brown Butter (developing and filming now)<br />Upcoming free recipe &#35;2 - Ultimate Yogurt Smoothie<br />Upcoming free recipe &#35;3 - Braised Kale</p>
     </div>
   </Layout>;
 }

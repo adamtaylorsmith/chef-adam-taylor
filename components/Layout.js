@@ -128,6 +128,15 @@ export default function Layout({ title, description, children }) {
     router.push(`/search?query=${query}`);
   };
 
+  function changeColor(e) {
+    e.target.style.background = '#488925';
+    e.target.style.color = '#333333';
+  }
+  function changeColorAgain(e) {
+    e.target.style.background = '#6cc93a';
+    e.target.style.color = '#ffffff';
+  }
+
   return (
     <>
       <Head>
@@ -376,7 +385,7 @@ export default function Layout({ title, description, children }) {
               </>
               ) : (
                 <NextLink href="/login" passHref>
-                  <Link sx={classes.login}>
+                  <Link sx={classes.login} onMouseEnter={changeColor} onMouseLeave={changeColorAgain} style={{textDecoration: 'none'}}> 
                       Login
                   </Link>
                 </NextLink>

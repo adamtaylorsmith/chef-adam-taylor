@@ -46,11 +46,14 @@ const classes = {
   login: {
     marginRight: 6,
     fontSize: '1.2rem',
-    backgroundColor: '#78e041',
+    backgroundColor: '#6cc93a',
     padding: '8px 14px 10px 14px',
     borderRadius: '5px',
     // color: '#888888',
   },
+  // login:hover {
+
+  // }
   navbarButton: {
     color: '#ffffff',
     textTransform: 'initial',
