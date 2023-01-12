@@ -8,7 +8,7 @@ import ProductItem from '../components/ProductItem';
 import client from '../utils/client';
 import { urlForThumbnail } from '../utils/image';
 import { Store } from '../utils/Store';
-import classes from '../utils/classes'
+// import classes from '../utils/classes'
 
 export default function Home() {
   const {
