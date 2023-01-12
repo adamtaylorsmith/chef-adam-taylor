@@ -238,7 +238,7 @@ export default function Layout({ title, description, children }) {
                   <Typography component="span" 
                   sx={classes.notextra}
                   >
-                    Recipes
+                    Instructional
                   </Typography>
                 </Link>
               </NextLink>
@@ -324,7 +324,7 @@ export default function Layout({ title, description, children }) {
               <NextLink href="/recipes" passHref>
                 <Link>
                   <Typography component="span" sx={classes.extra}>
-                    Recipes
+                    Instructional
                   </Typography>
                 </Link>
               </NextLink>
