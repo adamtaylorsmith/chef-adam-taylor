@@ -48,7 +48,7 @@ export default function Home() {
                         </Grid> 
                         <Grid item xs={12} md={5} sx={classes.homePageImgCont}>
                         <figure>
-                            <Image src="https://cdn.sanity.io/images/yx8hhiz1/production/faf3b38d7810fda041363145be384a3022fc5af2-1375x1750.png" width="325" height="414" alt="Adam during an Iron Chef event at Hole in the Wall Gang Camp in Ashford, CT" />
+                            <Image src="https://cdn.sanity.io/images/yx8hhiz1/production/faf3b38d7810fda041363145be384a3022fc5af2-1375x1750.png" width="255" height="325" alt="Adam during an Iron Chef event at Hole in the Wall Gang Camp in Ashford, CT" />
                             <figcaption>
                                 <p style={{fontSize: '14px'}}>Adam as Iron Chef, 2007.<br/>
                                 {/* <span style={{fontWeight: "bold"}}>The Hole in the Wall Gang Camp</span> */}
