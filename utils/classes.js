@@ -36,7 +36,7 @@ const classes = {
   },
   extra: {
     marginRight: 6,
-    fontSize: '1.2rem',
+    fontSize: '1.1rem',
   },
   notextra: {
     marginRight: 1,
@@ -46,7 +46,7 @@ const classes = {
   login: {
     marginRight: 6,
     fontSize: '1.2rem',
-    backgroundColor: '#6cc93a',
+    backgroundColor: '#60b233',
     padding: '8px 14px 10px 14px',
     borderRadius: '5px',
     // color: '#888888',
@@ -79,7 +79,7 @@ const classes = {
     textAlign: 'center'
   },
   homePageContent: {
-    fontSize: '1.2rem',
+    fontSize: '1.1rem',
     marginTop: 2,
     marginLeft: '5%',
     textAlign: 'left',

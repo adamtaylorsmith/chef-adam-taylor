@@ -12,13 +12,13 @@ export default function Home() {
             
                 <Container>
                     <Grid container spacing={1} display="flex" justifyContent="center">
-                    <h1 style={{color: '#333'}}>Chef Adam&#39;s Healthy Cuisine</h1>
+                    <h2 style={{color: '#333'}}>Chef Adam&#39;s Healthy Cuisine</h2>
                     </Grid>
                 
                     <Grid container>  
                         <Grid item xs={12} md={6}>
                             <Typography sx={classes.homePage}>
-                                <br /><span style={{fontSize: '1.5rem'}}>I will help you fall in love with healthy food!</span><br /><span style={{fontSize: '1.2rem'}}>Seasonal, local, farm-to-table cuisine.</span>
+                                <br /><span style={{fontSize: '1.3rem'}}>I will help you fall in love with healthy food!</span><br /><span style={{fontSize: '1.1rem'}}>Seasonal, local, farm-to-table cuisine.</span>
                             </Typography> 
                             <Typography sx={classes.homePageExtra}>
                                 I developed my skills at the following fine establishments: 

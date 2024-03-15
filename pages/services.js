@@ -7,12 +7,11 @@ export default function Services() {
   
   return <Layout>
     <div style={{marginLeft: '4%', marginRight: '6%', marginTop: '40px'}}>
-      <Typography component="h1" variant="h1">
+      <Typography component="h2" variant="h2">
           <div style={{fontWeight: '800'}}>My Services</div>
       </Typography>
-      <p style={{fontSize: '1.1rem'}}></p>
       
-      <p style={{fontSize: '1.2rem'}}>
+      <p style={{fontSize: '1.1rem'}}>
       <span style={{fontWeight: '600'}}>I provide the following services:</span><br />
       Personally delivered meals to your home.<br />
       Event catering (for a maximum 50 guests).<br />
