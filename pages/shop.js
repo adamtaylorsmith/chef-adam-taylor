@@ -66,12 +66,12 @@ const {loading, error, products} = state
     : error? (<Alert variant="danger">{error}</Alert>)
     : <>
     <div style={{marginLeft: '4%', marginRight: '4%', marginTop: '40px'}}>
-    <Typography component="h1" variant="h1">
+    <Typography component="h2" variant="h2">
             <div style={{fontWeight: '800'}}>Shop</div>
         </Typography>
       <Grid container>
         <Typography>
-          <span style={{fontSize: '1.2rem'}}>
+          <span style={{fontSize: '1.1rem'}}>
           I have applied for membership at a local commercial kitchen co-op. As soon as I can secure a regulated and licensed kitchen this page will include meals-to-go in the Indianapolis metro area plus packaged and canned goods ready to ship anywhere! <br/>
           Prepared with the cleanest, freshest, highest-quality produce and ingredients available.<br />
           Online shopping is currently only available in the  
