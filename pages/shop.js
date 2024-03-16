@@ -66,7 +66,7 @@ const {loading, error, products} = state
     : error? (<Alert variant="danger">{error}</Alert>)
     : <>
     <div style={{marginLeft: '4%', marginRight: '4%', marginTop: '40px'}}>
-    <Typography component="h2" variant="h2">
+    <Typography component="h1" variant="h1">
             <div style={{fontWeight: '800'}}>Shop</div>
         </Typography>
       <Grid container>

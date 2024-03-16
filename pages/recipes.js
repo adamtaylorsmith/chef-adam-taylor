@@ -8,7 +8,7 @@ export default function Recipes() {
 
   return <Layout>
     <div style={{marginLeft: '4%', marginRight: '4%', marginTop: '40px'}}>
-      <Typography component="h2" variant="h2">
+      <Typography component="h1" variant="h1">
           <div style={{fontWeight: '800'}}>Recipes Blog</div>
       </Typography>
       <p style={{fontSize: '1.1rem'}}>

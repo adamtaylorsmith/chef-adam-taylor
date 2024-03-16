@@ -7,7 +7,7 @@ export default function Services() {
   
   return <Layout>
     <div style={{marginLeft: '4%', marginRight: '6%', marginTop: '40px'}}>
-      <Typography component="h2" variant="h2">
+      <Typography component="h1" variant="h1">
           <div style={{fontWeight: '800'}}>My Services</div>
       </Typography>
       
