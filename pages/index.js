@@ -21,7 +21,7 @@ export default function Home() {
                                 <br /><span style={{fontSize: '1.3rem'}}>I will help you fall in love with healthy food!</span><br /><span style={{fontSize: '1.1rem'}}>Seasonal, local, farm-to-table cuisine.</span>
                             </Typography> 
                             <Typography sx={classes.homePageExtra}>
-                                I developed my skills at the following fine establishments: 
+                                My skills were developed at the following fine establishments: 
                             </Typography> 
                             <Typography sx={classes.homePageContent}>
                                 <a target="_blank" href="https://cafeflora.com/" rel="noopener noreferrer" style={{color: '#5e76f9', fontWeight: 'bold'}}>
