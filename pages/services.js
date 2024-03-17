@@ -15,10 +15,9 @@ export default function Services() {
       <span style={{fontWeight: '600'}}>I provide the following services:</span><br />
       Personally delivered meals to your home.<br />
       Event catering (for a maximum 50 guests).<br />
-      Instructional culinary workshops (for a maximum 12 guests).<br />
+      Instructional culinary workshops.<br />
       </p>
-      <p style={{fontSize: '1.1rem'}}>I rent time at a local commercial kitchen. Everything will be prepared in an immaculately clean state-of-the-art kitchen licensed by the Health Department.<br /><br />
-      I specialize in dietary restrictions, tell me about yours. I am currently a gluten-free low-acid pescatarian, I know all about it lol.<br /><br />
+      <p style={{fontSize: '1.1rem'}}>I specialize in dietary restrictions, tell me about yours.<br /><br />
       I can provide you with nourishing food and exceptional service. I am especially excited about Italian, Japanese, Mexican, Vegan and Vegetarian cuisines, but my skill set does not stop there.</p>
       <div><br />
           <form action="https://formspree.io/f/xwkrzokr" method="POST">

@@ -32,7 +32,7 @@ const classes = {
   },
   brand: {
     fontWeight: 'bold',
-    fontSize: '1.4rem',
+    fontSize: '1.3rem',
   },
   extra: {
     marginRight: 6,
@@ -87,7 +87,7 @@ const classes = {
   homePageExtra: {
     fontSize: '1rem',
     fontStyle: 'italic',
-    marginTop: 4,
+    // marginTop: 2,
     marginLeft: '5%',
     textAlign: 'left',
   },

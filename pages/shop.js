@@ -72,7 +72,6 @@ const {loading, error, products} = state
       <Grid container>
         <Typography>
           <span style={{fontSize: '1.1rem'}}>
-          I have applied for membership at a local commercial kitchen co-op. As soon as I can secure a regulated and licensed kitchen this page will include meals-to-go in the Indianapolis metro area plus packaged and canned goods ready to ship anywhere! <br/>
           Prepared with the cleanest, freshest, highest-quality produce and ingredients available.<br />
           Online shopping is currently only available in the  
             <span style={{fontWeight: '700'}}> Indianapolis, Indiana</span> area.
